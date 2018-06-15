@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: blue;
+}
+
+.drum-machine {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 50px;
+}
+
+.drum-pad {
+ flex: 1 1 30%;
+padding: 50px 0;
+  background-color: orange;
+  margin: 5px;
+  transition: .3s;
+}
+
+.active {
+  background: red;
+}
+
+.current {
+  position: relative;
+  top: 200px;
+}
